@@ -1,0 +1,29 @@
+body
+{
+background-image:url("bg.gif") ;
+font-family: 'Rubik Puddles', cursive;
+color:white
+}
+
+
+.header_div
+{
+    background-color: black;
+    color:khaki;
+}
+
+
+.header_div p{
+    font-family: cursive;
+    letter-spacing: 2px;
+    font-size: 12px;
+
+}
+
+
+.main_div button{
+    margin-top: 30px;
+    width: 130px;
+    color:black;
+    letter-spacing: 3px;
+}
