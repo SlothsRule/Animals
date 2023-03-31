@@ -1,7 +1,7 @@
 body
 {
-background-image:url("bg.gif") ;
-font-family: 'Rubik Puddles', cursive;
+background-color: #000000;
+  font-family: 'Rubik Puddles', cursive;
 color:white
 }
 
@@ -27,3 +27,36 @@ color:white
     color:black;
     letter-spacing: 3px;
 }
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #FF4E50 0%, #F9D423  51%, #FF4E50  100%);
+    margin: 40px;
+    padding: 10px 25px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color:black;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  .copy_right_footer {
+    position: fixed;
+    color: #d0ff00;
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+    background-color: #000000;
+    line-height: 3;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(151, 149, 149);
+ }
+ 
